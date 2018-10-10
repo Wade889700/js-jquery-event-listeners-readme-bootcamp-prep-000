@@ -19,8 +19,7 @@ function pressIt(){
     if (e.which === 71){
       window.alert("G was pressed.");
     }
-  });
-}
+  });}
 
 function submitIt(){
 $("form").on("submit", function(){
