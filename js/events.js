@@ -17,7 +17,7 @@ $("img").on("load", function (){
 function pressIt(){
   $("input").on("keydown", function(e){
     if (e.which === 71){
-      window.alert("You put the right key !");
+      window.alert("You put the right key!");
     }
   });}
 
